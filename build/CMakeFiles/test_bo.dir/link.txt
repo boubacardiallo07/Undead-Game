@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -g -Wall   CMakeFiles/test_bo.dir/test_bo.c.o  -o test_bo -rdynamic libgame.a 

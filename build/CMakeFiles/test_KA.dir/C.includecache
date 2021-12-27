@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/net/cremi/bodiallo/semestre1/git/undead-tm4d/game.h
+stdbool.h
+-
+
+/net/cremi/bodiallo/semestre1/git/undead-tm4d/game_io.h
+game.h
+/net/cremi/bodiallo/semestre1/git/undead-tm4d/game.h
+
+/net/cremi/bodiallo/semestre1/git/undead-tm4d/testKA.c
+stdlib.h
+-
+stdbool.h
+-
+assert.h
+-
+stdio.h
+-
+game_io.h
+/net/cremi/bodiallo/semestre1/git/undead-tm4d/game_io.h
+game.h
+/net/cremi/bodiallo/semestre1/git/undead-tm4d/game.h
+
